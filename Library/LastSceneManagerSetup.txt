@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/HaloKeyboardScene.unity
+- path: Assets/battleship.unity
   isLoaded: 1
   isActive: 1
