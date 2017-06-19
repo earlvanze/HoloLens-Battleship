@@ -1,9 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keyboard-Hero", "Assembly-CSharp.csproj", "{5D65FA93-BF8E-12C6-6885-46BAA090265A}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keyboard-Hero", "Keyboard-Hero.csproj", "{F6234C87-FEA4-B8C4-6232-6486236CAF2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keyboard-Hero", "Assembly-CSharp-Editor.csproj", "{C37DA9B9-D9F2-FC02-4DA0-373B66F5B923}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keyboard-Hero.Editor", "Keyboard-Hero.Editor.csproj", "{5E7FF679-064B-7827-5589-D946E0F521DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,19 +11,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5D65FA93-BF8E-12C6-6885-46BAA090265A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5D65FA93-BF8E-12C6-6885-46BAA090265A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5D65FA93-BF8E-12C6-6885-46BAA090265A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5D65FA93-BF8E-12C6-6885-46BAA090265A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C37DA9B9-D9F2-FC02-4DA0-373B66F5B923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C37DA9B9-D9F2-FC02-4DA0-373B66F5B923}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C37DA9B9-D9F2-FC02-4DA0-373B66F5B923}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C37DA9B9-D9F2-FC02-4DA0-373B66F5B923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6234C87-FEA4-B8C4-6232-6486236CAF2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6234C87-FEA4-B8C4-6232-6486236CAF2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6234C87-FEA4-B8C4-6232-6486236CAF2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6234C87-FEA4-B8C4-6232-6486236CAF2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E7FF679-064B-7827-5589-D946E0F521DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E7FF679-064B-7827-5589-D946E0F521DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E7FF679-064B-7827-5589-D946E0F521DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E7FF679-064B-7827-5589-D946E0F521DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
