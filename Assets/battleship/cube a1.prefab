@@ -105,6 +105,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad0857d361df778478c364ebfc4e4c53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  row: 0
+  column: 0
   selectColor: {r: 0, g: 1, b: 0.006896496, a: 0}
   deselectColor: {r: 0, g: 0, b: 0, a: 0}
   hitColor: {r: 1, g: 0, b: 0, a: 0}

@@ -81,7 +81,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\HighlightGrid.cs" />
     <Compile Include="Assets\HoloToolkit-Examples\ColorPicker\GazeableColorPicker.cs" />
     <Compile Include="Assets\HoloToolkit-Examples\GazeRuler\Scripts\DeleteLine.cs" />
     <Compile Include="Assets\HoloToolkit-Examples\GazeRuler\Scripts\IGeometry.cs" />
@@ -453,6 +452,10 @@
     <Compile Include="Assets\HoloToolkit\Utilities\Scripts\WorldAnchorManager.cs" />
     <Compile Include="Assets\HoloToolkit\Utilities\Shaders\FastConfigurable\Scripts\CalibrationSpace.cs" />
     <Compile Include="Assets\NoteFalling.cs" />
+    <Compile Include="Assets\battleship\DataColumns.cs" />
+    <Compile Include="Assets\battleship\GameLogic.cs" />
+    <Compile Include="Assets\battleship\Grid.cs" />
+    <Compile Include="Assets\battleship\HighlightGrid.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\HoloToolkit-Examples\Prototyping\Shaders\UnlitTransparentTriplanar.shader" />

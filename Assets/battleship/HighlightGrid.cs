@@ -1,6 +1,7 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License. See LICENSE in the project root for license information.
 
+using System;
 using UnityEngine;
 
 namespace HoloToolkit.Unity.InputModule.Tests
@@ -9,7 +10,7 @@ namespace HoloToolkit.Unity.InputModule.Tests
     /// This class implements IFocusable to respond to gaze changes.
     /// It highlights the object being gazed at.
     /// </summary>
-    public class HighlightGrid : MonoBehaviour, IFocusable
+    public class HighlightGrid : MonoBehaviour, IFocusable, IInputClickHandler
     {
         public int row;
         public int column;
@@ -34,6 +35,11 @@ namespace HoloToolkit.Unity.InputModule.Tests
         public void OnFocusExit()
         {
             thisRenderer.material.color = deselectColor;
+        }
+
+        public void OnInputClicked(InputClickedEventData eventData)
+        {
+            thisRenderer.material.color = missColor;
         }
     }
 }
