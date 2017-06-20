@@ -11,6 +11,9 @@ namespace HoloToolkit.Unity.InputModule.Tests
     /// </summary>
     public class HighlightGrid : MonoBehaviour, IFocusable
     {
+        public int row;
+        public int column;
+
         public Color selectColor;
         public Color deselectColor;
         public Color hitColor;

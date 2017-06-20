@@ -145,6 +145,8 @@
     <Compile Include="Assets\HoloToolkit\SpatialSound\Scripts\UAudioManager\Editor\UAudioManagerEditor.cs" />
     <Compile Include="Assets\HoloToolkit\SpatialSound\Scripts\UAudioManager\Editor\UAudioMiniManagerEditor.cs" />
     <Compile Include="Assets\HoloToolkit\SpatialSound\Scripts\UAudioManager\Editor\UAudioProfiler.cs" />
+    <Compile Include="Assets\HoloToolkit\Utilities\Editor\SetIconsWindow.cs" />
+    <Compile Include="Assets\HoloToolkit\Utilities\Editor\TextureScale.cs" />
     <Compile Include="Assets\HoloToolkit\Utilities\Scripts\Editor\AutoConfigureMenu.cs" />
     <Compile Include="Assets\HoloToolkit\Utilities\Scripts\Editor\AutoConfigureWindow.cs" />
     <Compile Include="Assets\HoloToolkit\Utilities\Scripts\Editor\CapabilitySettingsWindow.cs" />
