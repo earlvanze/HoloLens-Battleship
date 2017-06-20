@@ -14,6 +14,7 @@ namespace HoloToolkit.Unity.InputModule.Tests
     {
         public int row;
         public int column;
+        public bool isFireBoard;
 
         public Color selectColor;
         public Color deselectColor;
@@ -21,10 +22,12 @@ namespace HoloToolkit.Unity.InputModule.Tests
         public Color missColor;
 
         private MeshRenderer thisRenderer;
+        private GameLogic gameLogic;
 
         private void Start()
         {
             thisRenderer = this.GetComponent<MeshRenderer>();
+            gameLogic = GameObject.Find("GameLogic").GetComponent<GameLogic>();
         }
 
         public void OnFocusEnter()
@@ -39,7 +42,17 @@ namespace HoloToolkit.Unity.InputModule.Tests
 
         public void OnInputClicked(InputClickedEventData eventData)
         {
-            thisRenderer.material.color = missColor;
+            if (isFireBoard)
+            {
+                if (gameLogic.playerFire(row, column))
+                {
+                    thisRenderer.material.color = hitColor;
+                }
+                else
+                {
+                    thisRenderer.material.color = missColor;
+                }
+            }
         }
     }
 }
